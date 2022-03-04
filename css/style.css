@@ -21,7 +21,7 @@ header {
 }
 
 .nav_item a:visited{
-  color: inherit;
+  color: #0000EE;
 }
 
 .card>header{
@@ -115,11 +115,17 @@ header {
     background-image: none;
   }
 
+  .nav{
+    position: absolute;
+    width: 100%;
+  }
+
   .nav_links{
     display: inline-flex;
     flex-direction: row;
     justify-content: space-between;
   }
+
 
   .pricing{
     display: flex;
